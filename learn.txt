@@ -1,0 +1,11 @@
+pwd
+git init
+git clone https://github.com/QY979/learn.git
+git add learn.txt
+git commit -m "learn.txt"
+git checkout -b 1
+git add learn.txt
+git commit -m "checkout"
+git checkout main
+git merge 1
+git push origin 
